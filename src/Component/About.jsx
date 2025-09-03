@@ -4,11 +4,12 @@ import { Globe, Users, Award, Target, Eye, CheckCircle } from "lucide-react";
 
 export default function About() {
   const advantages = [
-    "One-stop solution for industrial and medical needs",
+    "We supply genuine OEM parts with emphasis on quality",
     "Strong global sourcing and supply chain network",
     "Competitive pricing with uncompromised quality",
     "Expert technical support and after-sales services",
-    "Commitment to integrity, trust, and innovation"
+    "Commitment to integrity and trust",
+    "Quick delivery times from our global suppliers"
   ];
 
   return (

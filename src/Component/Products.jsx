@@ -9,10 +9,14 @@ export default function Products() {
       iconColor: "text-blue-600",
       bgColor: "bg-blue-50",
       images: [
-        "img/3.webp",
-        "img/1.webp",
-        "img/2.webp",
-        "img/4.webp"
+        "img/1.jpg",
+        "img/2.png",
+        "img/3.png",
+        "img/4.png",
+        "img/5.png",
+        "img/6.png",
+        "img/7.png"
+        
       ],
       products: ["Circuit Breakers", "Junction Boxes (JBs)", "Cable Glands", "Cable Trays", "Push Buttons", "Transformers", "Power Supply Modules"]
     },
@@ -22,10 +26,14 @@ export default function Products() {
       iconColor: "text-red-600",
       bgColor: "bg-red-50",
       images: [
-        "img/5.webp",
-        "img/6.webp",
-        "img/8.webp",
-        "img/7.webp"
+        "img/8.png",
+        "img/9.png",
+        "img/10.png",
+        "img/11.png",
+        "img/12.png",
+        "img/13.png",
+        "img/14.png"
+        
       ],
       products: ["RO Membranes", "Strainers", "Pumps", "Motors", "Filters", "Gaskets", "Expansion Joints"]
     },
@@ -35,10 +43,13 @@ export default function Products() {
       iconColor: "text-amber-600",
       bgColor: "bg-amber-50",
       images: [
-        "img/9.webp",
-        "img/10.webp",
-        "img/12.webp",
-        "img/11.webp"
+        "img/15.png",
+        "img/16.png",
+        "img/17.png",
+        "img/18.png",
+        "img/19.png",
+        "img/20.png",
+        "img/21.png"
       ],
       products: ["Field Instruments", "Calibration Equipment", "Instrument Cables", "Analyzers", "VFDs", "Instrument Valves & Tubings", "Vibration Instruments"]
     },
@@ -48,10 +59,13 @@ export default function Products() {
       iconColor: "text-green-600",
       bgColor: "bg-green-50",
       images: [
-        "img/14.webp",
-        "img/16.webp",
-        "img/15.webp",
-        "img/13.webp"
+        "img/22.png",
+        "img/23.png",
+        "img/24.png",
+        "img/25.png",
+        "img/26.png",
+        "img/27.png",
+        "img/28.png"
       ],
       products: ["Weighing Balances", "Shakers", "Pipettes", "Vortex Mixers", "Stirring Heaters", "Incubators", "Medical Devices"]
     }
@@ -110,28 +124,44 @@ export default function Products() {
                   </div>
 
                   {/* Right Side: 4 Images in Grid */}
-                  <div className="grid grid-cols-2 grid-rows-2 gap-2 h-48 md:h-64 md:order-2">
-                    <img 
-                      src={category.images[0]} 
-                      alt={`${category.title} product 1`} 
-                      className="w-full h-full object-cover rounded-lg shadow-sm"
-                    />
-                    <img 
-                      src={category.images[1]} 
-                      alt={`${category.title} product 2`} 
-                      className="w-full h-full object-cover rounded-lg shadow-sm"
-                    />
-                    <img 
-                      src={category.images[2]} 
-                      alt={`${category.title} product 3`} 
-                      className="w-full h-full object-cover rounded-lg shadow-sm"
-                    />
-                    <img 
-                      src={category.images[3]} 
-                      alt={`${category.title} product 4`} 
-                      className="w-full h-full object-cover rounded-lg shadow-sm"
-                    />
-                  </div>
+                  <div className="grid grid-cols-6 grid-rows-9 gap-4 h-64 md:h-[300px] md:order-2">
+  <img 
+    src={category.images[0]} 
+    alt={`${category.title} product 1`} 
+    className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-3"
+  />
+  <img 
+    src={category.images[1]} 
+    alt={`${category.title} product 2`} 
+    className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-3 col-start-3"
+  />
+  <img 
+    src={category.images[2]} 
+    alt={`${category.title} product 3`} 
+    className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-3 col-start-5"
+  />
+  <img 
+    src={category.images[3]} 
+    alt={`${category.title} product 4`} 
+    className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-3 row-start-4"
+  />
+  <img 
+    src={category.images[4]} 
+    alt={`${category.title} product 5`} 
+    className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-3 col-start-3 row-start-4"
+  />
+  <img 
+    src={category.images[5]} 
+    alt={`${category.title} product 6`} 
+    className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-3 col-start-5 row-start-4"
+  />
+  <img 
+    src={category.images[6]} 
+    alt={`${category.title} product 7`} 
+    className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-3 col-start-3 row-start-7"
+  />
+</div>
+
                 </div>
               </div>
             ))}

@@ -133,7 +133,7 @@ export default function Home() {
                 name: "Instrumentation",
                 color: "from-amber-500 to-amber-600",
                 bgColor: "bg-amber-50",
-                description: "Precision measurement tools"
+                description: "Precision measurement devices & Field Instruments"
               },
               {
                 icon: Stethoscope,
@@ -144,7 +144,7 @@ export default function Home() {
               }
             ].map((category) => (
               <div key={category.name} className="group">
-                <div className={`${category.bgColor} p-6 sm:p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-white/50 backdrop-blur-sm`}>
+                <div className={`${category.bgColor} p-6 sm:p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-white/50 backdrop-blur-sm lg:h-72 `}>
                   <div className={`w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br ${category.color} rounded-2xl flex items-center justify-center mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300 shadow-xl`}>
                     <category.icon className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
                   </div>
@@ -170,7 +170,7 @@ export default function Home() {
               {
                 icon: Globe,
                 title: "Global Network",
-                description: "Extensive supplier partnerships worldwide ensuring quality and availability."
+                description: "Extensive supplier partnerships worldwide ensuring quality and on-time deliveries."
               },
               {
                 icon: Award,

@@ -58,7 +58,7 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Your Email"
-                value={footerForm.email}
+                // value={footerForm.email}
                 onChange={(e) => setFooterForm({ ...footerForm, email: e.target.value })}
                 required
                 className="w-full px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder:text-slate-400 focus:ring-2 focus:ring-amber-500 focus:border-transparent"
