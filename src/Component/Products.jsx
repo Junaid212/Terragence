@@ -75,12 +75,41 @@ export default function Products() {
     }
   ];
 
-  const services = [
-    { icon: Globe, title: "Global Sourcing", description: "From trusted suppliers worldwide" },
-    { icon: Shield, title: "Quality Checks", description: "Strict quality assurance processes" },
-    { icon: Truck, title: "Fast Delivery", description: "Reliable and timely shipping" },
-    { icon: Headphones, title: "Customer Support", description: "End-to-end customer service" },
-  ];
+ const services = [
+  {
+    icon: Globe,
+    title: "Global Sourcing",
+    description: "From trusted suppliers worldwide",
+    cardColor: "bg-blue-100", // card background
+    bgColor: "bg-blue-500/10", // icon background
+    textColor: "text-blue-600", // icon color
+  },
+  {
+    icon: Shield,
+    title: "Quality Checks",
+    description: "Strict quality assurance processes",
+    cardColor: "bg-green-100",
+    bgColor: "bg-green-500/10",
+    textColor: "text-green-600",
+  },
+  {
+    icon: Truck,
+    title: "Fast Delivery",
+    description: "Reliable and timely shipping",
+    cardColor: "bg-yellow-100",
+    bgColor: "bg-yellow-500/10",
+    textColor: "text-yellow-600",
+  },
+  {
+    icon: Headphones,
+    title: "Customer Support",
+    description: "End-to-end customer service",
+    cardColor: "bg-purple-100",
+    bgColor: "bg-purple-500/10",
+    textColor: "text-purple-600",
+  },
+];
+
 
   return (
     <div className="overflow-x-hidden">
@@ -181,24 +210,40 @@ export default function Products() {
 
       {/* Services Section */}
       <section className="py-16 md:py-20 lg:py-24 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900">Our Value-Added Services</h2>
-            <p className="mt-3 md:mt-4 text-base md:text-lg text-slate-600">Beyond products, we provide end-to-end support.</p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
-            {services.map((service) => (
-              <div key={service.title} className="bg-white p-6 md:p-8 text-center rounded-xl md:rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300">
-                <div className="w-12 h-12 md:w-16 md:h-16 bg-blue-100 text-blue-800 rounded-lg md:rounded-xl flex items-center justify-center mx-auto mb-4 md:mb-6">
-                  <service.icon className="w-6 h-6 md:w-8 md:h-8" />
-                </div>
-                <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-2">{service.title}</h3>
-                <p className="text-sm md:text-base text-slate-600">{service.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-12 md:mb-16">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900">
+        Our Value-Added Services
+      </h2>
+      <p className="mt-3 md:mt-4 text-base md:text-lg text-slate-600">
+        Beyond products, we provide end-to-end support.
+      </p>
+    </div>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+  {services.map((service) => (
+    <div
+      key={service.title}
+      className={`${service.cardColor} p-6 md:p-8 text-center rounded-xl md:rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300`}
+    >
+      <div
+        className={`w-12 h-12 md:w-16 md:h-16 rounded-lg md:rounded-xl flex items-center justify-center mx-auto mb-4 md:mb-6 ${service.bgColor} ${service.textColor}`}
+      >
+        <service.icon className="w-6 h-6 md:w-8 md:h-8" />
+      </div>
+      <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-2">
+        {service.title}
+      </h3>
+      <p className="text-sm md:text-base text-slate-600">
+        {service.description}
+      </p>
+    </div>
+  ))}
+</div>
+
+  </div>
+</section>
+
     </div>
   );
 }
