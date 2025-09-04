@@ -7,10 +7,12 @@ import Layout from "./Component/Layout";
 import PageHeader from "./Component/PageHeader";
 import NavBar from "./Component/NavBar";
 import Footer from "./Component/Footer";
+import ScrollToTop from "./Component/ScrollToTop";
 
 export default function  App() {
   return (
   <BrowserRouter>
+  <ScrollToTop />
   <NavBar/>
   {/* <Layout/> */}
         <Routes>
