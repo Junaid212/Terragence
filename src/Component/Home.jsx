@@ -111,7 +111,7 @@ export default function Home() {
               Delivering excellence across industries with precision, quality, and reliability.
             </p>
           </div>
-
+  <Link to ='/products'>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             {[
               {
@@ -143,6 +143,9 @@ export default function Home() {
                 description: "Healthcare & laboratory equipment"
               }
             ].map((category) => (
+            
+
+        
               <div key={category.name} className="group">
                 <div className={`${category.bgColor} p-6 sm:p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-white/50 backdrop-blur-sm lg:h-72 `}>
                   <div className={`w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br ${category.color} rounded-2xl flex items-center justify-center mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300 shadow-xl`}>
@@ -155,6 +158,8 @@ export default function Home() {
               </div>
             ))}
           </div>
+                              </Link>
+
         </div>
       </section>
 

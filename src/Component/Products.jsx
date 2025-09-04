@@ -15,10 +15,11 @@ export default function Products() {
         "img/4.png",
         "img/5.png",
         "img/6.png",
-        "img/7.png"
+        "img/7.png",
+        "img/29.png",
         
       ],
-      products: ["Circuit Breakers", "Junction Boxes (JBs)", "Cable Glands", "Cable Trays", "Push Buttons", "Transformers", "Power Supply Modules"]
+      products: ["Circuit Breakers", "Junction Boxes (JBs)", "Cable Glands", "Cable Trays", "Push Buttons", "Transformers", "Power Supply Modules","Solenoid Valves"]
     },
     {
       title: "Mechanical", 
@@ -32,10 +33,11 @@ export default function Products() {
         "img/11.png",
         "img/12.png",
         "img/13.png",
-        "img/14.png"
+        "img/14.png",
+        "img/30.png",
         
       ],
-      products: ["RO Membranes", "Strainers", "Pumps", "Motors", "Filters", "Gaskets", "Expansion Joints"]
+      products: ["RO Membranes", "Strainers", "Pumps", "Motors", "Filters", "Gaskets", "Expansion Joints","Hand Power and Pneumatic tools"]
     },
     {
       title: "Instruments",
@@ -49,9 +51,10 @@ export default function Products() {
         "img/18.png",
         "img/19.png",
         "img/20.png",
-        "img/21.png"
+        "img/21.png",
+        "img/33.png",
       ],
-      products: ["Field Instruments", "Calibration Equipment", "Instrument Cables", "Analyzers", "VFDs", "Instrument Valves & Tubings", "Vibration Instruments"]
+      products: ["Field Instruments", "Calibration Equipment", "Instrument Cables", "Analyzers", "VFDs", "Instrument Valves & Tubings", "Vibration Instruments","IOT Devices"]
     },
     {
       title: "Medical Instruments",
@@ -62,12 +65,13 @@ export default function Products() {
         "img/22.png",
         "img/23.png",
         "img/24.png",
-        "img/25.png",
+        "img/32.png",
         "img/26.png",
         "img/27.png",
-        "img/28.png"
+        "img/28.png",
+        "img/31.png",
       ],
-      products: ["Weighing Balances", "Shakers", "Pipettes", "Vortex Mixers", "Stirring Heaters", "Incubators", "Medical Devices"]
+      products: ["Weighing Balances", "Shakers", "Pipettes", "Vortex Mixers", "Stirring Heaters", "Incubators", "Medical Refrigerators and freezers","Centrifuges"]
     }
   ];
 
@@ -123,44 +127,50 @@ export default function Products() {
                     </ul>
                   </div>
 
-                  {/* Right Side: 4 Images in Grid */}
-                  <div className="grid grid-cols-6 grid-rows-9 gap-4 h-72 md:h-[300px] md:order-2">
-  <img 
-    src={category.images[0]} 
-    alt={`${category.title} product 1`} 
-    className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-3"
-  />
-  <img 
-    src={category.images[1]} 
-    alt={`${category.title} product 2`} 
-    className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-3 col-start-3"
-  />
-  <img 
-    src={category.images[2]} 
-    alt={`${category.title} product 3`} 
-    className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-3 col-start-5"
-  />
-  <img 
-    src={category.images[3]} 
-    alt={`${category.title} product 4`} 
-    className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-3 row-start-4"
-  />
-  <img 
-    src={category.images[4]} 
-    alt={`${category.title} product 5`} 
-    className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-3 col-start-3 row-start-4"
-  />
-  <img 
-    src={category.images[5]} 
-    alt={`${category.title} product 6`} 
-    className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-3 col-start-5 row-start-4"
-  />
-  <img 
-    src={category.images[6]} 
-    alt={`${category.title} product 7`} 
-    className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-3 col-start-3 row-start-7"
-  />
-</div>
+                  {/* Right Side: 8 Images in Grid */}
+                  <div className="grid grid-cols-6 grid-rows-12 gap-4 h-[300px] md:h-[300px] md:order-2">
+                      <img 
+                        src={category.images[0]} 
+                        alt={`${category.title} product 1`} 
+                        className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-4"
+                      />
+                      <img 
+                        src={category.images[1]} 
+                        alt={`${category.title} product 2`} 
+                        className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-4 col-start-3"
+                      />
+                      <img 
+                        src={category.images[2]} 
+                        alt={`${category.title} product 3`} 
+                        className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-4 col-start-5"
+                      />
+                      <img 
+                        src={category.images[3]} 
+                        alt={`${category.title} product 4`} 
+                        className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-4 row-start-5"
+                      />
+                      <img 
+                        src={category.images[4]} 
+                        alt={`${category.title} product 5`} 
+                        className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-4 col-start-3 row-start-5"
+                      />
+                      <img 
+                        src={category.images[5]} 
+                        alt={`${category.title} product 6`} 
+                        className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-4 col-start-5 row-start-5"
+                      />
+                      <img 
+                        src={category.images[6]} 
+                        alt={`${category.title} product 7`} 
+                        className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-4 col-start-2 row-start-9"
+                      />
+                      <img 
+                        src={category.images[7]} 
+                        alt={`${category.title} product 8`} 
+                        className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-4 col-start-4 row-start-9"
+                      />
+                    </div>
+
 
                 </div>
               </div>
