@@ -124,7 +124,7 @@ export default function Products() {
                   </div>
 
                   {/* Right Side: 4 Images in Grid */}
-                  <div className="grid grid-cols-6 grid-rows-9 gap-4 h-64 md:h-[300px] md:order-2">
+                  <div className="grid grid-cols-6 grid-rows-9 gap-4 h-72 md:h-[300px] md:order-2">
   <img 
     src={category.images[0]} 
     alt={`${category.title} product 1`} 
