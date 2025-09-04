@@ -9,7 +9,7 @@ export default function Products() {
       iconColor: "text-blue-600",
       bgColor: "bg-blue-50",
       images: [
-        "img/1.jpg",
+        "img/1.png",
         "img/2.png",
         "img/3.png",
         "img/4.png",

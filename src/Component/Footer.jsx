@@ -35,8 +35,8 @@ const Footer = () => {
               Intelligence at the Core of Every Solution. Your trusted trading partner for high-quality industrial and medical products.
             </p>
             <div className="mt-4 space-y-2 text-sm">
-              <div className="flex items-center gap-2 text-slate-300"><MapPin className="w-4 h-4" /> India</div>
-              <div className="flex items-center gap-2 text-slate-300"><Mail className="w-4 h-4" /> info@terragence.com</div>
+              <div className="flex items-center gap-2 text-slate-300"><MapPin className="w-4 h-4" />Terragence Instruments Private Limited<br/>Farangipete Bantwal, India<br/>PIN CODE: 574 143, </div>
+              <div className="flex items-center gap-2 text-slate-300"><Mail className="w-4 h-4" /> sales@terragence.com</div>
             </div>
           </div>
           

@@ -68,8 +68,8 @@ export default function Contact() {
                 <Phone className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">Phone</h3>
-              <p className="text-slate-600 mb-2">+1 (555) 123-4567</p>
-              <p className="text-sm text-slate-500">Mon-Fri, 8:00 AM - 6:00 PM</p>
+              <p className="text-slate-600 mb-2">+91 XXXXXXXX</p>
+              <p className="text-sm text-slate-500">Mon-Fri, 9:00 AM - 5:00 PM</p>
             </div>
             
             <div className="bg-white p-8 rounded-2xl shadow-lg text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
@@ -77,7 +77,7 @@ export default function Contact() {
                 <Mail className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">Email</h3>
-              <p className="text-slate-600 mb-2">info@company.com</p>
+              <p className="text-slate-600 mb-2">sales@terragence.com</p>
               <p className="text-sm text-slate-500">We'll respond within 24 hours</p>
             </div>
             
@@ -86,8 +86,8 @@ export default function Contact() {
                 <MapPin className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">Office</h3>
-              <p className="text-slate-600 mb-2">123 Commerce Street</p>
-              <p className="text-sm text-slate-500">Business District, City 10001</p>
+              <p className="text-slate-600 mb-2">Terragence Instruments Private Limited</p>
+              <p className="text-sm text-slate-500">PIN CODE: 574 143, Farangipete Bantwal, India</p>
             </div>
           </div>
         </div>
@@ -166,13 +166,13 @@ export default function Contact() {
             <div>
               <div className="bg-slate-800 rounded-2xl overflow-hidden shadow-xl h-96 mb-8">
                 {/* Replace with your actual map embed code */}
-                <div className="w-full h-full flex items-center justify-center bg-slate-700 text-white">
-                  <div className="text-center">
-                    <MapPin className="w-12 h-12 mx-auto mb-4 text-blue-400" />
+                <img src="img/cont-banner.webp" className="w-full h-full flex items-center justify-center">
+                  {/* <div className="text-center"> */}
+                    {/* <MapPin className="w-12 h-12 mx-auto mb-4 text-blue-400" />
                     <p className="text-lg font-semibold">Interactive Map</p>
-                    <p className="text-slate-300 mt-2">Location would be displayed here</p>
-                  </div>
-                </div>
+                    <p className="text-slate-300 mt-2">Location would be displayed here</p> */}
+                  {/* </div> */}
+                </img>
               </div>
               
               <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 shadow-lg">
