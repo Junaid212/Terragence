@@ -10,6 +10,7 @@ const navigationItems = [
   { title: "Home", url: createPageUrl("") },
   { title: "About Us", url: createPageUrl("About") },
   { title: "Products", url: createPageUrl("Products") },
+  { title: "Brands", url: createPageUrl("Brands") },
   { title: "Contact", url: createPageUrl("Contact") }
 ];
 
@@ -22,7 +23,7 @@ const NavBar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 sm:h-20">
           {/* Logo */}
-          <Link to={createPageUrl("Home")} className="flex items-center gap-3">
+          <Link to={createPageUrl("")} className="flex items-center gap-3">
             <div className="w-12 h-12 sm:w-10 sm:h-10  flex items-center justify-center ">
               <img src="img/Terragence  LOGO.png" style={{height:"44px"}}/>
             </div>
