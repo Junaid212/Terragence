@@ -49,11 +49,10 @@ export default function About() {
             <div className="prose prose-lg">
               <h3 className="text-3xl font-bold text-slate-900">A Trusted Trading Company</h3>
               <p className="text-slate-600 leading-[1.75]">
-                Terragence Instruments Private Limited, based in India, is a premier trading company specializing in Electrical, Mechanical, Instrumentation, and Medical Products. We partner with leading global manufacturers to supply industries with high-quality, rigorously tested products.
-              </p>
+                Terragence Instruments Private Limited is a trusted trading company, based in India, specializing in Electrical, Mechanical, Instrumentation, and Medical Products. We work with global manufacturers and suppliers to provide industries with high-quality, tested products.
+              </p><br/>
               <p className="text-slate-600 leading-[1.75]">
-                Our philosophy is simple: business is about building enduring partnerships founded on trust and mutual value, not merely transacting products.
-              </p>
+                At Terragence, we believe that business is about building long-term partnerships, not just supplying products. </p>
             </div>
           </div>
         </div>
@@ -69,7 +68,7 @@ export default function About() {
                 <h3 className="text-3xl font-bold text-slate-900">Our Mission</h3>
               </div>
               <p className="text-lg text-slate-700">
-                To provide industries with reliable, high-quality products through a transparent and efficient trading process, ensuring trust and long-term value for every client.
+                To provide industries with reliable, high-quality products through a transparent and efficient trading process, ensuring trust and long term value for every client.
               </p>
             </div>
             <div className="bg-white rounded-2xl p-10 shadow-lg">
