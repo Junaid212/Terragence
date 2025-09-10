@@ -114,6 +114,12 @@ const Footer = () => {
                 <div className="w-4 h-4 text-amber-400" /> Products
               </Link>
               <Link
+                to={createPageUrl("Brands")}
+                className="flex items-center  text-slate-300 hover:text-white transition-colors"
+              >
+                <div className="w-4 h-4 text-amber-400" /> Brands
+              </Link>
+              <Link
                 to={createPageUrl("Contact")}
                 className="flex items-center text-slate-300 hover:text-white transition-colors"
               >
