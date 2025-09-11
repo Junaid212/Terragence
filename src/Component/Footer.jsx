@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Mail, MapPin, Zap, Cog, Activity, Stethoscope, Send, House, Book, ShoppingCart, Target, User } from "lucide-react";
+import { Mail, MapPin, Zap, Cog, Activity, Stethoscope, Send, House, Book, ShoppingCart, Target, User, Phone } from "lucide-react";
 
 const createPageUrl = (pageName) => {
   return `/${pageName.toLowerCase().replace(/\s+/g, '-')}`;
@@ -47,15 +47,19 @@ const Footer = () => {
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                 <span>
                   Terragence Instruments Private Limited
-                  <br />
+                 
                   Farangipete Bantwal, India
-                  <br />
+                  
                   PIN CODE: 574 143
                 </span>
               </div>
               <div className="flex items-center gap-2 text-slate-300">
                 <Mail className="w-4 h-4" />
                 <span>sales@terragence.com</span>
+              </div>
+              <div className="flex items-center gap-2 text-slate-300">
+                <Phone className="w-4 h-4" />
+                <span>+919742807007</span>
               </div>
             </div>
           </div>
