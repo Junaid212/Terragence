@@ -68,7 +68,7 @@ export default function Contact() {
                 <Phone className="w-6 h-6 sm:w-8 sm:h-8" />
               </div>
               <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-2">Phone</h3>
-              <p className="text-slate-600 mb-2 text-sm sm:text-base">+91 XXXXXXXX</p>
+              <p className="text-slate-600 mb-2 text-sm sm:text-base">+919742807007</p>
               <p className="text-xs sm:text-sm text-slate-500">Mon-Fri, 9:00 AM - 5:00 PM</p>
             </div>
             

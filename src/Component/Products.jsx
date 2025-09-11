@@ -51,7 +51,7 @@ export default function Products() {
         "img/18.png",
         "img/19.png",
         "img/20.png",
-        "img/21.png",
+        "img/al3.png",
         "img/33.png",
       ],
       products: ["Field Instruments", "Calibration Equipment", "Instrument Cables", "Analyzers", "VFDs", "Instrument Valves & Tubings", "Vibration Instruments","IOT Devices"]
@@ -62,13 +62,13 @@ export default function Products() {
       iconColor: "text-green-600",
       bgColor: "bg-green-50",
       images: [
-        "img/22.png",
+        "img/al1.png",
         "img/23.png",
         "img/24.png",
         "img/32.png",
         "img/26.png",
         "img/27.png",
-        "img/28.png",
+        "img/al2.png",
         "img/31.png",
       ],
       products: ["Weighing Balances", "Shakers", "Pipettes", "Vortex Mixers", "Stirring Heaters", "Incubators", "Medical Refrigerators and freezers","Centrifuges"]

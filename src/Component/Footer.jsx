@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Mail, MapPin, Zap, Cog, Activity, Stethoscope, Send } from "lucide-react";
+import { Mail, MapPin, Zap, Cog, Activity, Stethoscope, Send, House, Book, ShoppingCart, Target, User } from "lucide-react";
 
 const createPageUrl = (pageName) => {
   return `/${pageName.toLowerCase().replace(/\s+/g, '-')}`;
@@ -32,7 +32,7 @@ const Footer = () => {
                 />
               </div>
               <div>
-                <h3 className="font-bold text-lg sm:text-xl text-white">
+                <h3 className="font-bold text-lg sm:text-xl text-blue-600">
                   Terragence Instruments
                 </h3>
                 <p className="text-sm text-slate-400">Private Limited</p>
@@ -97,33 +97,33 @@ const Footer = () => {
             <div className="space-y-3 text-sm">
               <Link
                 to={createPageUrl("")}
-                className="flex items-center  text-slate-300 hover:text-white transition-colors"
+                className="flex items-center gap-2 text-slate-300 hover:text-white transition-colors"
               >
-                <div className="w-4 h-4 text-blue-400" /> Home
+                <House  className="w-4 h-4 text-blue-400" /> Home
               </Link>
               <Link
                 to={createPageUrl("About")}
-                className="flex items-center  text-slate-300 hover:text-white transition-colors"
+                className="flex items-center gap-2 text-slate-300 hover:text-white transition-colors"
               >
-                <div className="w-4 h-4 text-slate-400" /> About Us
+                <Book className="w-4 h-4 text-slate-400" /> About Us
               </Link>
               <Link
                 to={createPageUrl("Products")}
-                className="flex items-center  text-slate-300 hover:text-white transition-colors"
+                className="flex items-center gap-2 text-slate-300 hover:text-white transition-colors"
               >
-                <div className="w-4 h-4 text-amber-400" /> Products
+                <ShoppingCart className="w-4 h-4 text-amber-400" /> Products
               </Link>
               <Link
                 to={createPageUrl("Brands")}
-                className="flex items-center  text-slate-300 hover:text-white transition-colors"
+                className="flex items-center gap-2 text-slate-300 hover:text-white transition-colors"
               >
-                <div className="w-4 h-4 text-amber-400" /> Brands
+                <Target className="w-4 h-4 text-red-400" /> Brands
               </Link>
               <Link
                 to={createPageUrl("Contact")}
-                className="flex items-center text-slate-300 hover:text-white transition-colors"
+                className="flex items-center gap-2 text-slate-300 hover:text-white transition-colors"
               >
-                <div className="w-4 h-4 text-green-400" /> Contact Us
+                <User className="w-4 h-4 text-green-400" /> Contact Us
               </Link>
             </div>
           </div>
@@ -163,7 +163,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-slate-800 mt-8 sm:mt-12 pt-6 sm:pt-8 text-center text-sm text-slate-400">
-          © {new Date().getFullYear()} Terragence Instruments Private Limited. All Rights Reserved.
+          © {new Date().getFullYear()} Terragence Instruments Pvt Ltd. | Site by Bright Media.
         </div>
       </div>
     </footer>
