@@ -18,13 +18,14 @@ const brandLogos = [
   { name: "SCHROEDAHL", color: "#2E8B57" },
   { name: "RTK", color: "#FF4500" },
   { name: "KENDRION & INTORQ", color: "#DC143C" },
-  { name: "EPE FILTERS & ACCUMULATORS", color: "#4682B4" },
+  { name: "EPE FILTERS ", color: "#4682B4" },
   { name: "OMSONS", color: "#9400D3" },
   { name: "A-EBERLE", color: "#FF6347" },
   { name: "FILSEP FILTERS", color: "#556B2F" },
   { name: "EPCOS", color: "#004C97" },
   { name: "BELDEN", color: "#00338D" },
-  { name: "LEONI KERPEN", color: "#1C1C1C" }
+  { name: "LEONI KERPEN", color: "#1C1C1C" },
+  { name: "VEGA", color: "#FF6347" }
 ];
 
 
@@ -42,7 +43,8 @@ export default function Brands() {
             Trusted by Industry Leaders
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Join thousands of world-class brands that trust our platform to deliver exceptional experiences
+Delivering reliable solutions that top brands depend on.
+
           </p>
         </motion.div>
 
