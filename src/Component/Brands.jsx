@@ -43,7 +43,7 @@ export default function Brands() {
             Trusted by Industry Leaders
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-Delivering reliable solutions that top brands depend on.
+Supplying a wide range of engineering products from leading brands across the globe.
 
           </p>
         </motion.div>
