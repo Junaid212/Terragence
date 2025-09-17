@@ -11,7 +11,7 @@ const brandLogos = [
   { name: "LEMO", color: "#0072CE" },
   { name: "GOYEN", color: "#228B22" },
   { name: "PENTAIR", color: "#0066CC" },
-  { name: "CESARE BONETTI", color: "#800000" },
+  { name: "CESARE BONETTI", color: "#800001" },
   { name: "LESLIE CONTROLS", color: "#CC6600" },
   { name: "HALE HAMILTON", color: "#005BAC" },
   { name: "R.G. LAURENCE", color: "#8B0000" },
@@ -43,7 +43,7 @@ export default function Brands() {
             Trusted by Industry Leaders
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-Supplying a wide range of engineering products from leading brands across the globe.
+          Supplying a wide range of engineering products from leading brands across the globe.
 
           </p>
         </motion.div>
